@@ -1,3 +1,4 @@
+# My solution
 def hex_output(hex_num):
     """
     hex_output() converts hexadecimal number in decimal
@@ -32,7 +33,7 @@ def hex_output(hex_num):
     return value
 
 # Book solution using int() function.
-def hex_output_():
+def hex_output_bs():
     decnum = 0
     hexnum = input('Enter a hex number to convert: ')
     for power, digit in enumerate(reversed(hexnum)):
@@ -40,4 +41,15 @@ def hex_output_():
     print(decnum)
 
 
+# Beyonde the exercise
+def triangle_name():
+    name = input("What's your name? ")
+    name_list = list()
+    for x in name:
+        name_list.append(x)
+        print()
+        for x in name_list:
+            print(x, end='')
 
+
+triangle_name()
