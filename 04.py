@@ -6,11 +6,10 @@ def hex_output(hex_num):
 
     value = 0
     new_num = list()
-#    new_num = list(x[1] if x[1] not in 'abcdef0123456789' else print(f'{x[1]} will be skipped.') for x in enumerate(hex_num))
 
-    for x in enumerate(hex_num):
-        if x[1] in 'abcdef0123456789':
-            new_num.append(x[1])
+    for x in str(hex_num):
+        if x in 'abcdef0123456789':
+            new_num.append(x)
         else:
             print(f'{x[1]} will be skipped.')
 
@@ -32,6 +31,13 @@ def hex_output(hex_num):
         value += int(x[1]) * (16 ** int(x[0]))
     return value
 
+# Book solution using int() function.
+def hex_output_():
+    decnum = 0
+    hexnum = input('Enter a hex number to convert: ')
+    for power, digit in enumerate(reversed(hexnum)):
+        decnum += int(digit, 16) * (16 ** power)
+    print(decnum)
 
-print(hex_output('ic3g'))
+
 
