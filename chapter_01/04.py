@@ -1,4 +1,4 @@
-# My solution
+
 def hex_output(hex_num):
     """
     hex_output() converts hexadecimal number in decimal
