@@ -1,0 +1,5 @@
+/bin/zsh: root
+/usr/sbin/nologin: daemon, bin, sys, games, man, lp, mail, news, uucp, proxy, www-data, backup, list, irc, gnats, nobody, _apt, systemd-timesync, systemd-network, systemd-resolve, messagebus, Debian-exim, uuidd, avahi-autoipd, usbmux, rtkit, dnsmasq, avahi, pulse, saned, colord, geoclue, systemd-coredump, libvirt-qemu, _rpc, statd, tcpdump
+/bin/sync: sync
+/bin/false: tss, speech-dispatcher, gnome-initial-setup, Debian-gdm
+/usr/bin/zsh: alexandre

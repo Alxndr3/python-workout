@@ -1,0 +1,88 @@
+rt:x:0:0:rt:/rt:/bn/zsh
+dmn:x:1:1:dmn:/usr/sbn:/usr/sbn/nlgn
+bn:x:2:2:bn:/bn:/usr/sbn/nlgn
+ss:x:3:3:ss:/dv:/usr/sbn/nlgn
+snc:x:4:65534:snc:/bn:/bn/snc
+gms:x:5:60:gms:/usr/gms:/usr/sbn/nlgn
+mn:x:6:12:mn:/vr/cch/mn:/usr/sbn/nlgn
+lp:x:7:7:lp:/vr/spl/lpd:/usr/sbn/nlgn
+ml:x:8:8:ml:/vr/ml:/usr/sbn/nlgn
+nws:x:9:9:nws:/vr/spl/nws:/usr/sbn/nlgn
+uucp:x:10:10:uucp:/vr/spl/uucp:/usr/sbn/nlgn
+prx:x:13:13:prx:/bn:/usr/sbn/nlgn
+www-dt:x:33:33:www-dt:/vr/www:/usr/sbn/nlgn
+bckup:x:34:34:bckup:/vr/bckups:/usr/sbn/nlgn
+lst:x:38:38:Mlng Lst Mngr:/vr/lst:/usr/sbn/nlgn
+rc:x:39:39:rcd:/run/rcd:/usr/sbn/nlgn
+gnts:x:41:41:Gnts Bug-Rprtng Sstm (dmn):/vr/lb/gnts:/usr/sbn/nlgn
+nbd:x:65534:65534:nbd:/nnxstnt:/usr/sbn/nlgn
+_pt:x:100:65534::/nnxstnt:/usr/sbn/nlgn
+sstmd-tmsnc:x:101:101:sstmd Tm Snchrnztn,,,:/run/sstmd:/usr/sbn/nlgn
+sstmd-ntwrk:x:102:103:sstmd Ntwrk Mngmnt,,,:/run/sstmd:/usr/sbn/nlgn
+sstmd-rslv:x:103:104:sstmd Rslvr,,,:/run/sstmd:/usr/sbn/nlgn
+tss:x:104:110:TPM sftwr stck,,,:/vr/lb/tpm:/bn/fls
+mssgbus:x:105:111::/nnxstnt:/usr/sbn/nlgn
+Dbn-xm:x:106:112::/vr/spl/xm4:/usr/sbn/nlgn
+uudd:x:107:113::/run/uudd:/usr/sbn/nlgn
+vh-utpd:x:108:116:Avh utp dmn,,,:/vr/lb/vh-utpd:/usr/sbn/nlgn
+usbmux:x:109:46:usbmux dmn,,,:/vr/lb/usbmux:/usr/sbn/nlgn
+rtkt:x:110:118:RltmKt,,,:/prc:/usr/sbn/nlgn
+dnsmsq:x:111:65534:dnsmsq,,,:/vr/lb/msc:/usr/sbn/nlgn
+vh:x:112:120:Avh mDNS dmn,,,:/run/vh-dmn:/usr/sbn/nlgn
+spch-dsptchr:x:113:29:Spch Dsptchr,,,:/run/spch-dsptchr:/bn/fls
+puls:x:114:121:PulsAud dmn,,,:/run/puls:/usr/sbn/nlgn
+snd:x:115:124::/vr/lb/snd:/usr/sbn/nlgn
+clrd:x:116:125:clrd clur mngmnt dmn,,,:/vr/lb/clrd:/usr/sbn/nlgn
+gclu:x:117:126::/vr/lb/gclu:/usr/sbn/nlgn
+gnm-ntl-stup:x:118:65534::/run/gnm-ntl-stup/:/bn/fls
+Dbn-gdm:x:119:127:Gnm Dspl Mngr:/vr/lb/gdm3:/bn/fls
+lxndr:x:1000:1000:Alxndr Crds,,,:/hm/lxndr:/usr/bn/zsh
+sstmd-crdump:x:999:999:sstmd Cr Dumpr:/:/usr/sbn/nlgn
+lbvrt-qmu:x:64055:106:Lbvrt Qmu,,,:/vr/lb/lbvrt:/usr/sbn/nlgn
+_rpc:x:120:65534::/run/rpcbnd:/usr/sbn/nlgn
+sttd:x:121:65534::/vr/lb/nfs:/usr/sbn/nlgn
+tcpdump:x:122:131::/nnxstnt:/usr/sbn/nlgn
+rt:x:0:0:rt:/rt:/bn/zsh
+dmn:x:1:1:dmn:/usr/sbn:/usr/sbn/nlgn
+bn:x:2:2:bn:/bn:/usr/sbn/nlgn
+ss:x:3:3:ss:/dv:/usr/sbn/nlgn
+snc:x:4:65534:snc:/bn:/bn/snc
+gms:x:5:60:gms:/usr/gms:/usr/sbn/nlgn
+mn:x:6:12:mn:/vr/cch/mn:/usr/sbn/nlgn
+lp:x:7:7:lp:/vr/spl/lpd:/usr/sbn/nlgn
+ml:x:8:8:ml:/vr/ml:/usr/sbn/nlgn
+nws:x:9:9:nws:/vr/spl/nws:/usr/sbn/nlgn
+uucp:x:10:10:uucp:/vr/spl/uucp:/usr/sbn/nlgn
+prx:x:13:13:prx:/bn:/usr/sbn/nlgn
+www-dt:x:33:33:www-dt:/vr/www:/usr/sbn/nlgn
+bckup:x:34:34:bckup:/vr/bckups:/usr/sbn/nlgn
+lst:x:38:38:Mlng Lst Mngr:/vr/lst:/usr/sbn/nlgn
+rc:x:39:39:rcd:/run/rcd:/usr/sbn/nlgn
+gnts:x:41:41:Gnts Bug-Rprtng Sstm (dmn):/vr/lb/gnts:/usr/sbn/nlgn
+nbd:x:65534:65534:nbd:/nnxstnt:/usr/sbn/nlgn
+_pt:x:100:65534::/nnxstnt:/usr/sbn/nlgn
+sstmd-tmsnc:x:101:101:sstmd Tm Snchrnztn,,,:/run/sstmd:/usr/sbn/nlgn
+sstmd-ntwrk:x:102:103:sstmd Ntwrk Mngmnt,,,:/run/sstmd:/usr/sbn/nlgn
+sstmd-rslv:x:103:104:sstmd Rslvr,,,:/run/sstmd:/usr/sbn/nlgn
+tss:x:104:110:TPM sftwr stck,,,:/vr/lb/tpm:/bn/fls
+mssgbus:x:105:111::/nnxstnt:/usr/sbn/nlgn
+Dbn-xm:x:106:112::/vr/spl/xm4:/usr/sbn/nlgn
+uudd:x:107:113::/run/uudd:/usr/sbn/nlgn
+vh-utpd:x:108:116:vh utp dmn,,,:/vr/lb/vh-utpd:/usr/sbn/nlgn
+usbmux:x:109:46:usbmux dmn,,,:/vr/lb/usbmux:/usr/sbn/nlgn
+rtkt:x:110:118:RltmKt,,,:/prc:/usr/sbn/nlgn
+dnsmsq:x:111:65534:dnsmsq,,,:/vr/lb/msc:/usr/sbn/nlgn
+vh:x:112:120:vh mDNS dmn,,,:/run/vh-dmn:/usr/sbn/nlgn
+spch-dsptchr:x:113:29:Spch Dsptchr,,,:/run/spch-dsptchr:/bn/fls
+puls:x:114:121:Pulsud dmn,,,:/run/puls:/usr/sbn/nlgn
+snd:x:115:124::/vr/lb/snd:/usr/sbn/nlgn
+clrd:x:116:125:clrd clur mngmnt dmn,,,:/vr/lb/clrd:/usr/sbn/nlgn
+gclu:x:117:126::/vr/lb/gclu:/usr/sbn/nlgn
+gnm-ntl-stup:x:118:65534::/run/gnm-ntl-stup/:/bn/fls
+Dbn-gdm:x:119:127:Gnm Dspl Mngr:/vr/lb/gdm3:/bn/fls
+lxndr:x:1000:1000:lxndr Crds,,,:/hm/lxndr:/usr/bn/zsh
+sstmd-crdump:x:999:999:sstmd Cr Dumpr:/:/usr/sbn/nlgn
+lbvrt-qmu:x:64055:106:Lbvrt Qmu,,,:/vr/lb/lbvrt:/usr/sbn/nlgn
+_rpc:x:120:65534::/run/rpcbnd:/usr/sbn/nlgn
+sttd:x:121:65534::/vr/lb/nfs:/usr/sbn/nlgn
+tcpdump:x:122:131::/nnxstnt:/usr/sbn/nlgn

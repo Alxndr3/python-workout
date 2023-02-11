@@ -1,0 +1,24 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# systemd generates mount units based on this file, see systemd.mount(5).
+# Please run 'systemctl daemon-reload' after making changes here.
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+/dev/mapper/ti12664--vg-root /               ext4    errors=remount-ro 0       1
+# /boot was on /dev/sdb2 during installation
+UUID=0ed3173a-672f-44da-b80e-ce8b33aded88 /boot           ext2    defaults        0       2
+# /boot/efi was on /dev/sdb1 during installation
+UUID=DFE7-AD1F  /boot/efi       vfat    umask=0077      0       1
+/dev/mapper/ti12664--vg-swap_1 none            swap    sw              0       0
+
+//10.20.120.59/ti	/mnt	cifs	vers=3.0,username=a60803,gid=1000,uid=1000,iocharset=utf8,file_mode=0777,dirmode=0777,noauto	00
+//ts4.educacional.com/c$	/mnt/ts4	cifs	vers=3.0,username=alexandrec,gid=1000,uid=1000,iocharset=utf8,file_mode=0777,dirmode=0777,noauto	0	0
+
+//10.20.120.245/c$	/home/alexandre/fs	cifs	vers=3.0,username=a60803,gid=1000,uid=1000,iocharset=utf8,file_mode=0777,dirmode=0777,noauto	00
+
+10.20.121.173:/backup/011ora501     /backup    nfs    defaults,nolock,noauto          0 0
+
