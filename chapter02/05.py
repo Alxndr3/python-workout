@@ -34,4 +34,5 @@ def pig_latin_bs(word):
     return f'{word[1:]}{word[0]}ay'
 
 
-print(pig_latin_different_vowels())
+#print(pig_latin_different_vowels())
+print(pig_latin_bs(input('word: ')))
