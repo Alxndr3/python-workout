@@ -57,6 +57,5 @@ b3 = Book('Python', 'Lerner', 35)
 s1 = Shelf()
 s1.add_book(b1, b2)
 s1.add_book(b3)
-print(s1.total_price())
-
 print(s1)
+print(s1.total_price())
