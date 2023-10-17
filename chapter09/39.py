@@ -53,6 +53,7 @@ s3 = Scoop('chocolate')
 b1 = Bowl()
 b1.add_scoops(s1)
 b1.add_scoops(s2)
+b1.add_scoops(s3)
 
 print(b1)
 
